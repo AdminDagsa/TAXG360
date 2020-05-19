@@ -15,6 +15,13 @@
 
 
 /* ======= WRAPPER ========== */
+.xgb{
+  background-color: #00024F;
+}
+
+.xgn{
+  color: black;
+}
 
 
 .l-theme {
@@ -1273,6 +1280,7 @@ html .section-head h2 {
 
 .section-13 {
 	background: #fe533d;
+	padding: ;
 }
 .section-13 .text-block-section h5 {
 	color: #ffffff;
@@ -1759,7 +1767,8 @@ footer .list-left.list-footer li:before {
 
 
 .title-text  h2 {
-    color: #ffffff;
+  margin-top: 10px;
+    color: black;
     font-family: "Libre Baskerville";
     font-size: 54px;
     font-weight: 700;

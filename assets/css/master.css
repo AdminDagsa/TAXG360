@@ -1,5 +1,9 @@
 /*------------------------------------------------------------------
 [Master Stylesheet]
+Project: Alegada
+Version:  1.0
+Assigned to:  Templines
+Primary use: Alegada
 -------------------------------------------------------------------*/
 
 
@@ -8,13 +12,23 @@
 @import 'https://use.fontawesome.com/releases/v5.3.1/css/all.css';
 
 
+
 /* PLUGIN CSS */
-@import '../libs/bootstrap/bootstrap-grid.css';
-@import '../libs/bootstrap/bootstrap.min.css';
-@import '../libs/animate/animate.css';
+
+@import '../libs/bootstrap/bootstrap-grid.css';                /* bootstrap */
+@import '../libs/bootstrap/bootstrap.min.css';                /* bootstrap */
+@import '../libs/headers/header.css';                /* header */
+@import '../libs/headers/yamm.css';                /* header */
+@import '../libs/slider-pro/slider-pro.css';         /* main slider */
+@import '../libs/owl-carousel/owl.theme.css';                 /* other sliders */
+@import '../libs/bxslider/jquery.bxslider.css';                 /* other sliders */
+@import '../libs/magnific-popup/magnific-popup.css';            /* modal */
+@import '../libs/animate/animate.css';                        /* animations */
+
 
 
 /* MAIN CSS */
+
 @import 'theme.css';
 @import 'forum.css';
 @import 'color.css';
