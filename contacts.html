@@ -81,21 +81,21 @@
                      <div class="text-block-section ">
                         <h5 class="contact-subtitle">Formulario de Contacto</h5>
                      </div>
-                      <section class="contact-form">
-
-
+          <section class="contact-form">
+            <form name="Caso" method="POST" data-netlify="true" data-netlify-recaptcha="true">
                <div class="row">
                   <div class="col-md-12">
-                     <input class="form-input" placeholder="Nombre" type="text">
+                     <input class="form-input" name="Nombre" placeholder="Nombre" type="text">
                   </div>
-                  <div class="col-md-12"><input class="form-input" placeholder="Email" type="email"></div>
-                  <div class="col-md-12"><input class="form-input" placeholder="Telefono" type="number"></div>
+                  <div class="col-md-12"><input class="form-input" placeholder="Email" type="Correo Electronico:"></div>
+                  <div class="col-md-12"><input class="form-input" placeholder="Telefono" type="Telefono:"></div>
                   <div class="col-md-12">
-                     <textarea name="contact-text" id="contact-text23" cols="90" rows="7" placeholder="Comentarios"></textarea>
-                     <div class="g-recaptcha" data-sitekey="6LcgmdcUAAAAAEFSICfVs7rb9XhyaaOj5yYicavH"></div>
+                     <textarea name="Comentarios:" id="contact-text23" cols="90" rows="7" placeholder="Comentarios"></textarea>
+                     <div data-netlify-recaptcha="true"></div>
                      <input class="comment-button" data-brackets-id="2527" value="Enviar" type="submit">
                   </div>
                </div>
+            </form>   
                <!--js-->
                    <script src='https://www.google.com/recaptcha/api.js'></script>
 
