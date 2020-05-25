@@ -2832,3 +2832,7 @@ width: 100%;
 .freshness-normal-width {
 	min-width: 340px;
 }
+
+.d-m{
+  margin-bottom: 100px;
+}
